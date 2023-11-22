@@ -1,0 +1,69 @@
+* {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headerContainer {
+    display: flex;
+    background-color: rgb(56, 56, 86);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headerItems {
+    flex: 1;
+    margin-top: 20px;
+}
+.headerItems a {
+    color: white;
+}
+.headerLogo {
+    flex: 2;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sectionOne {
+    background-color: rgb(56, 56, 86);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 450px;
+}
+.sectionOne button {
+    background-color: rgb(97, 158, 255);
+    border-radius: 15px;
+    padding: 10px;
+    width: 90px;
+    color: white;
+    margin-left: 75px;
+}
+.sectionOne div {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.sectionOne h1, p {
+    color: white;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.sectionTwo h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.imageItems {
+    text-align: center;
+}
